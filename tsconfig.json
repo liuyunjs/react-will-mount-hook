@@ -1,25 +1,20 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noImplicitAny": true,
-    "importHelpers": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
-    "noUnusedLocals": true,
-    "target": "es5",
-    "watch": false,
-    "alwaysStrict": true,
-    "declaration": true,
-    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "lib": ["es5", "es6", "dom"],
-    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "jsx": "react",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "es5",
+    "resolveJsonModule": true,
+    "declaration": true,
     "rootDir": "./",
-    "outDir": "./lib",
-    "baseUrl": "./",
-    "jsx": "react"
+    "outDir": "lib"
   },
-  "exclude": ["node_modules"]
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
 }
