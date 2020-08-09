@@ -1,6 +1,6 @@
 {
   "name": "react-will-mount-hook",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Mock react willMount with react hooks api",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
