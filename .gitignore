@@ -14,12 +14,9 @@ bin-release/
 *.apk
 
 lib
-tmp
 node_modules
 
 *.log
-yarn.lock
-pageage-lock.json
 
 .idea
 .DS_Store
